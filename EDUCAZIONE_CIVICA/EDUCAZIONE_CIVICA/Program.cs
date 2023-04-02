@@ -117,6 +117,10 @@ public static class Applicazione
                     return Es4(s, n);
             }
 
+            public static int Es6()
+            {
+                return contatore;
+            }
 
         }
 
