@@ -106,6 +106,17 @@ public static class Applicazione
                 }
                 return Math.Ceiling(totale / n);
             }
+            public static double Es5(string s, int n)
+            {
+                contatore++;
+                if (n % 2 == 0)
+                {
+                    return Es3(s, n);
+                }
+                else
+                    return Es4(s, n);
+            }
+
 
         }
 
