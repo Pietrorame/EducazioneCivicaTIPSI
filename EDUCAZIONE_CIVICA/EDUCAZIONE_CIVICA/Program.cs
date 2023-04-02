@@ -89,7 +89,26 @@ public static class Applicazione
                 }
                 totale += index + 1;
             }
+
+            public static double Es4(string s, int n)
+            {
+                int index = 0;
+                double totale = 1;
+                foreach (var item in s)
+                {
+                    s = s.ToLower();
+                    index = 0;
+                    while (item != alfabeto[index])
+                    {
+                        index++;
+                    }
+                    totale *= (index + 1);
+                }
+                return Math.Ceiling(totale / n);
+            }
+
         }
-    
+
+
 
     
