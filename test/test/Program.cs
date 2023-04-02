@@ -20,7 +20,10 @@ public static class Test
         int Ireturned = Applicazione.Es3("ciao", 10);
         Assert.Equal(Iexpected, Ireturned);
 
-
+        //es4
+        double Dexpected = 41;
+        double Dreturned = Applicazione.Es4("ciao", 10);
+        Assert.Equal(Dexpected, Dreturned);
 
     }
 }
