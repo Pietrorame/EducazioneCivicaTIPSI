@@ -10,7 +10,10 @@ public static class Test
         string returned = Applicazione.Es1("ciao", 10);
         Assert.Equal(expected, returned);
 
-
+        //es2
+        expected = "ciao";
+        returned = Applicazione.Es2("msky", 10);
+        Assert.Equal(expected, returned);
 
 
     }
