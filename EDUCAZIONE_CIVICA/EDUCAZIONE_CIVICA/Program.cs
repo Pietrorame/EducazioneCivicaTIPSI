@@ -122,6 +122,11 @@ public static class Applicazione
                 return contatore;
             }
 
+            public static double Es7(string s)
+            {
+                return Es5(s, contatore);
+            }
+
         }
 
 
