@@ -15,6 +15,12 @@ public static class Test
         returned = Applicazione.Es2("msky", 10);
         Assert.Equal(expected, returned);
 
+        //es3
+        int Iexpected = 250;
+        int Ireturned = Applicazione.Es3("ciao", 10);
+        Assert.Equal(Iexpected, Ireturned);
+
+
 
     }
 }
